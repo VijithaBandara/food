@@ -1,5 +1,5 @@
 .container{
-    background-color: red;
+    background-color: rgb(195, 6, 38);
     height: 100px;
     padding: 0px 50px;
     display: flex;
@@ -77,3 +77,12 @@
     justify-content: center;
     font-weight: bold;
 }
+@media screen and (max-width:480px) {
+    .item:nth-child(2) {
+      display: none;
+    }
+  
+    .item:nth-child(1) {
+      flex: 3;
+    }
+  }
