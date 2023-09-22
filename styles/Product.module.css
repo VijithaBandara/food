@@ -1,5 +1,5 @@
 .container {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 10px);
     display: flex;
   }
   
@@ -13,7 +13,7 @@
   
   .right {
     flex: 1;
-    padding: 20px;
+    padding: 0 0 500px 0 ;
   }
 
   .imgContainer {

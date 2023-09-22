@@ -26,15 +26,15 @@ const Product = () => {
             <h3 className={styles.choose}>Choose the size</h3>
         <div className={styles.sizes}>
             <div className={styles.size} onClick={()=>setSize(0)}>
-                <Image src="/public/img/size.png" layout='fill' alt="" />
+                <Image src="/img/size.png" layout='fill' alt="" />
                 <span className={styles.number}>Small</span>
             </div>
             <div className={styles.size} onClick={()=>setSize(1)}>
-                <Image src="/public/img/size.png" layout='fill' alt="" />
+                <Image src="/img/size.png" layout='fill' alt="" />
                 <span className={styles.number}>Medium</span>
             </div>
             <div className={styles.size} onClick={()=>setSize(2)}>
-                <Image src="/public/img/size.png" layout='fill' alt="" />
+                <Image src="/img/size.png" layout='fill' alt="" />
                 <span className={styles.number}>Large</span>
             </div>
             </div>
